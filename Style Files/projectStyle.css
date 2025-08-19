@@ -1,0 +1,68 @@
+
+.pageSection{
+    margin-top: 60px;
+    padding-bottom: 20px;
+    border-bottom: 15px solid rgba(0, 21, 127, 0.97);              
+}
+
+.projectType{
+    color: #00157F;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 60px;
+}
+
+
+.FeaturedProjectRow{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.imageText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 430px;
+    background: white;
+}
+
+.imageText img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.projectFormat{
+    max-width: 430px;
+}
+
+.linkTitle{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.linkTitle a{
+    text-decoration: underline solid 2px;
+    color: #00157F;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.linkTitle a:hover{
+    color: white;
+    background: #00157F;
+    text-decoration: none;
+}
+
+.imageText p{
+    text-align: center;
+    font-size: 1.4rem;
+}

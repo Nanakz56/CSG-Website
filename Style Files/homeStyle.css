@@ -1,0 +1,213 @@
+.pageWelcome{
+    margin: 75px 0px 0 0;    
+    background: rgba(0, 21, 127, 0.97);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    padding: 56px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    text-align: center;
+    width: 100vw;                            
+}
+
+.pageWelcome h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: 1.5px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.subHeading{
+    color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.5;
+    background: rgba(0, 21, 127, 0.97);
+    border-radius: 8px;
+    padding: 14px 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    letter-spacing: 0.5px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    width: 100vw;                            
+    margin: 18px 0px 0 0;    
+    border-bottom: 15px solid rgba(0, 21, 127, 0.97);              
+}
+
+.textContent1{
+    margin-left: 50px;
+    margin-right: 200px;
+    width: 700px;
+}
+
+.textContent1 h1{
+    font-size: 5rem;
+    color: #222;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.textContent1 p{
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.imageContent1{
+    flex: 0 0 240px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.imageContent1 img{
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+/*Content 2*/
+.content2{
+    margin: 18px 0px 0px 0px;    
+    background: white;
+    border-bottom: 15px solid rgba(0, 21, 127, 0.97);              
+}
+
+.linkTitleCenter{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.linkTitleCenter a{
+    text-decoration: none;
+    color: #00157F;
+    font-weight: 900;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.linkTitleCenter a:hover{
+    background: #00157F;
+    color: white;
+    outline: 2px solid black;
+}
+
+
+/*Content 3: Intriguing Datasets*/
+.content3{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-bottom: 15px solid rgba(0, 21, 127, 0.97);              
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.top h2{
+    font-size: 2.4rem;
+    color: #00157F;
+    font-weight: bold;
+}
+
+.top h1, .bibSection h1{
+    font-size: 5rem;
+    color: #00157F;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle h2{
+    text-decoration: underline;
+    color: #00157F;
+    margin-bottom: 0;
+}
+
+.middle p{
+    margin-top: 15px;
+    width: 500px;
+    font-size: 1rem;
+}
+
+.bottom{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftLinkText{
+    width: 800px;
+    margin-right: 200px;
+    margin-left: 80px;
+}
+
+.rightLinkText{
+    width: 800px;
+    margin-right: 80px;
+}
+
+.leftLinkText h2, .rightLinkText h2{
+    color:#00157F;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.leftLinkText p, .rightLinkText p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bibSection{
+    margin-top: 20px;
+    border-bottom: 15px solid rgba(0, 21, 127, 0.97);
+}
+
+
+.bibSection h1, .bibFormat{
+    margin-left: 60px;
+}
+
+.bibFormat{
+    margin-bottom: 50px;
+}
+.bibFormat h2{
+    font-weight: 900;
+    color: #00157F;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.bibFormat p{
+    color: black;
+    font-size: 25px;
+}
+
+.centered{
+    text-align: center;
+    color: #00157F;;
+    text-decoration: underline;
+    font-size: 20px;
+}
